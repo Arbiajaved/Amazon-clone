@@ -1,0 +1,54 @@
+div{
+    padding:0px;
+    margin:0px;
+    color:white;
+#logo{
+            color:orange;
+    
+   }
+}
+#nav1{
+    height:60px;
+    width:200;
+    background-color: black;
+
+    }
+    button{
+            background-color: #f08804;
+    }
+#logo{
+    color:#f08804;
+    font-size: 25px;
+
+}
+a{
+    margin-right : 200px;
+    color:white;
+    text-decoration: none;
+}
+#content{
+    height:800px;
+}
+.content{
+    height:100px;
+    width:100px;
+    /* padding:25px; */
+      margin-top:25px; 
+     /*margin-bottom:25px;*/ 
+     margin-left:25px;  
+   /*  margin-right:25px; */
+    border :2px solid black;
+    display:inline-block;
+
+    text-transform: capitalize;
+
+
+
+}
+footer{
+    color:white;
+     text-align:center;
+    background-color:black;
+}
+
+
