@@ -1,24 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon</title>
-    <link rel = "stylesheet" href  = "style1.css">
+  <meta charset="UTF-8">
+  <title>Amazon Clone</title>
+  <link rel="stylesheet" href="amazon.css">
 </head>
 <body>
 
-    
-    <div id = "nav1";>
-    <a id="logo" href="#">amazon.in</a> 
-    <a href="#"> Account</a>
-    <a href="#">My Cart</a>
-    <a href="#">Contact us</a>
-   <input placeholder="search Amazon.in">
-   <button>search</button> 
+  <div id="nav1">
+    <a id="logo" href="#">amazon.in</a>
+    <a href="#">Account</a>
+    <a href="cart.html">My Cart</a>
+    <a href="#">Contact Us</a>
+    <input placeholder="Search Amazon.in">
+    <button>Search</button>
+  </div>
+
+  <div id="banner">
+    <img src="https://images.unsplash.com/photo-1606813909357-527c82d49ef3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80" alt="Banner Image"> 
+  </div>
+
+  <h2>Shopping Categories</h2>
+
+  <div id="content">
+    <div class="content">
+      <img src="https://images.unsplash.com/photo-1580894894519-1be173dcb1d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bluetooth Headphones">
+      <p>Bluetooth Headphones</p>
+      <button onclick="addToCart('Bluetooth Headphones')">Add to Cart</button>
     </div>
+
+    <div class="content">
+      <img src="https://images.unsplash.com/photo-1610551345392-478fa8d2dbb8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Smartphone 5G">
+      <p>Smartphone 5G</p>
+      <button onclick="addToCart('Smartphone 5G')">Add to Cart</button>
+    </div>
+
+    <div class="content">
+      <img src="https://images.unsplash.com/photo-1587202372775-cd299c7b20c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Gaming Laptop">
+      <p>Gaming Laptop</p>
+      <button onclick="addToCart('Gaming Laptop')">Add to Cart</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Amazon Clone | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
