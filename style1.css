@@ -1,54 +1,109 @@
-div{
-    padding:0px;
-    margin:0px;
-    color:white;
-#logo{
-            color:orange;
-    
-   }
+/* Reset some default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-#nav1{
-    height:60px;
-    width:200;
-    background-color: black;
 
-    }
-    button{
-            background-color: #f08804;
-    }
-#logo{
-    color:#f08804;
-    font-size: 25px;
-
+/* Nav bar styling */
+#nav1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #131921;
+  color: white;
+  height: 60px;
+  padding: 0 20px;
 }
-a{
-    margin-right : 200px;
-    color:white;
-    text-decoration: none;
-}
-#content{
-    height:800px;
-}
-.content{
-    height:100px;
-    width:100px;
-    /* padding:25px; */
-      margin-top:25px; 
-     /*margin-bottom:25px;*/ 
-     margin-left:25px;  
-   /*  margin-right:25px; */
-    border :2px solid black;
-    display:inline-block;
 
-    text-transform: capitalize;
-
-
-
+#nav1 a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 16px;
 }
-footer{
-    color:white;
-     text-align:center;
-    background-color:black;
+
+#logo {
+  color: #f08804;
+  font-size: 25px;
+  font-weight: bold;
 }
+
+#nav1 input {
+  padding: 7px 10px;
+  border: none;
+  width: 250px;
+  border-radius: 4px;
+}
+
+#nav1 button {
+  background-color: #f08804;
+  color: white;
+  border: none;
+  padding: 7px 15px;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Main content area */
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #e3e6e6;
+}
+
+.content {
+  background-color: white;
+  width: 22%;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.content img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.content h3 {
+  padding: 10px;
+  font-size: 18px;
+  color: #131921;
+}
+
+.content p {
+  padding: 0 10px 10px 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.content button {
+  background-color: #f08804;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 90%;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #131921;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
 
 
